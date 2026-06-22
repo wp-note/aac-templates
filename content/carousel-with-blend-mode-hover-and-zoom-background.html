@@ -1,0 +1,131 @@
+<!-- wp:group {"align":"full","className":"showCursor","style":{"spacing":{"padding":{"top":"75px","bottom":"75px"},"blockGap":"0px"}},"backgroundColor":"black","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull showCursor has-black-background-color has-background" style="padding-top:75px;padding-bottom:75px"><!-- wp:html -->
+<div class="custom-cursor"></div>
+<!-- /wp:html -->
+
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"fontSize":"36px"}},"textColor":"white"} -->
+<h2 class="wp-block-heading has-text-align-center has-white-color has-text-color has-link-color" style="font-size:36px"><strong>Ride the Urban Wave</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"fontSize":"20px"}},"textColor":"white"} -->
+<p class="has-text-align-center has-white-color has-text-color has-link-color" style="font-size:20px">Explore the energy, style, and freedom of modern skateboarding through bold visuals and gritty street vibes.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:appiapp-carousel/carousel {"customCss":"/* Custom cursor */\n.custom-cursor {\n  position: fixed;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-color: white;\n  pointer-events: none;\n  mix-blend-mode: difference;\n  z-index: 9999;\n  transform: translate(-50%, -50%);\n  transition: width 0.3s, height 0.3s, opacity 0.3s;\n  opacity: 0; /* Hidden by default */\n  left:-100px;\n  top:-100px;\n}\n\n.custom-cursor.hover {\n  width: 60px;\n  height: 60px;\n  opacity: 0.8;\n}\n\n.custom-cursor.active {\n  opacity: 1; /* Visible when active */\n}\n\nselector .wp-block-cover .wp-block-cover__inner-container,\nselector .wp-block-cover .wp-block-cover__background,\nselector .wp-block-cover .wp-block-cover__image-background{\n  transition: all 0.3s ease\n}\n\nselector .wp-block-cover:hover .wp-block-cover__inner-container{\n  transform: translateY(-20px);\n}\n\nselector .wp-block-cover:hover .wp-block-cover__background{\n  opacity: 0.2;\n}\n\nselector .wp-block-cover:hover .wp-block-cover__image-background{\n    transform: scale(1.2);\n}","gapDesktop":40,"gapTablet":30,"swiperOptions":{"speed":300,"loop":false,"rewind":false,"freeMode":false,"autoHeight":false,"effect":"slide","centeredSlides":false,"allowTouchMove":true,"mouseWheel":true,"breakpoints":[],"nameInstance":"","saveInstance":true,"autoplay":{"enabled":false,"delay":3000,"pauseOnMouseEnter":true},"customJs":"document.addEventListener('DOMContentLoaded', () =\u003e {\n  const cursor = document.querySelector('.custom-cursor');\n  const cursorSections = document.querySelectorAll('.showCursor');\n\n  let lastKnownMousePos = { x: 0, y: 0 };\n  \n  // Track mouse position at all times\n  document.addEventListener('mousemove', (e) =\u003e {\n    lastKnownMousePos.x = e.clientX;\n    lastKnownMousePos.y = e.clientY;\n    cursor.style.left = `${lastKnownMousePos.x}px`;\n    cursor.style.top = `${lastKnownMousePos.y}px`;\n    \n    // Check if the mouse is over any cursor section\n    checkCursorSections(e.clientX, e.clientY);\n  });\n  \n  // Check if a point is inside the element\n  function isPointInElement(x, y, element) {\n    const rect = element.getBoundingClientRect();\n    return (\n      x \u003e= rect.left \u0026\u0026\n      x \u003c= rect.right \u0026\u0026\n      y \u003e= rect.top \u0026\u0026\n      y \u003c= rect.bottom\n    );\n  }\n  \n  // Check if the cursor is currently over any of the cursor sections\n  function checkCursorSections(x, y) {\n    let isOverCursorSection = false;\n    \n    cursorSections.forEach(section =\u003e {\n      if (isPointInElement(x, y, section)) {\n        isOverCursorSection = true;\n        cursor.classList.add('active');\n      }\n    });\n    \n    if (!isOverCursorSection) {\n      cursor.classList.remove('active');\n      cursor.classList.remove('hover');\n    }\n  }\n  \n  // Check cursor position on scroll to update visibility\n  window.addEventListener('scroll', () =\u003e {\n    // Force cursor position update after scroll\n    checkCursorSections(lastKnownMousePos.x, lastKnownMousePos.y);\n  });\n  \n  // Initial check (important for page load)\n  setTimeout(() =\u003e {\n    checkCursorSections(lastKnownMousePos.x, lastKnownMousePos.y);\n  }, 100);\n  \n  // Set up mouse enter/leave for interactive elements\n  function setHoverListeners(elements) {\n    elements.forEach(element =\u003e {\n      element.addEventListener('mouseenter', () =\u003e {\n        if (cursor.classList.contains('active')) {\n          cursor.classList.add('hover');\n        }\n      });\n      \n      element.addEventListener('mouseleave', () =\u003e {\n        cursor.classList.remove('hover');\n      });\n    });\n  }\n\n  // Add hover effect for cursor in all interactive elements within showCursor sections\n  const interactiveElements = [\n    ...document.querySelectorAll('.showCursor .swiper__slide__inner')\n  ];\n  \n  setHoverListeners(interactiveElements);\n\n});","overrideOptions":""},"align":"wide"} -->
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"40px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group" style="margin-bottom:40px"><!-- wp:appiapp-carousel/prev-arrow -->
+<!-- wp:outermost/icon-block {"iconName":"wordpress-arrowLeft","iconColor":"white","iconColorValue":"#ffffff","width":"30px"} -->
+<div class="wp-block-outermost-icon-block"><div class="icon-container has-icon-color has-white-color" style="color:#ffffff;width:30px;transform:rotate(0deg) scaleX(1) scaleY(1)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.2H6.8l3.7-3.7-1-1L3.9 12l5.6 5.5 1-1-3.7-3.7H20z"></path></svg></div></div>
+<!-- /wp:outermost/icon-block -->
+<!-- /wp:appiapp-carousel/prev-arrow -->
+
+<!-- wp:appiapp-carousel/next-arrow -->
+<!-- wp:outermost/icon-block {"iconName":"wordpress-arrowRight","iconColor":"white","iconColorValue":"#ffffff","width":"30px"} -->
+<div class="wp-block-outermost-icon-block"><div class="icon-container has-icon-color has-white-color" style="color:#ffffff;width:30px;transform:rotate(0deg) scaleX(1) scaleY(1)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 6.5-1 1 3.7 3.7H4v1.6h13.2l-3.7 3.7 1 1 5.6-5.5z"></path></svg></div></div>
+<!-- /wp:outermost/icon-block -->
+<!-- /wp:appiapp-carousel/next-arrow --></div>
+<!-- /wp:group -->
+
+<!-- wp:appiapp-carousel/items-container -->
+<!-- wp:appiapp-carousel/carousel-item -->
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:cover {"url":"https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/04/2025-04-06_17-43-08_1105.jpeg","id":1903,"dimRatio":50,"overlayColor":"black","isUserOverlayColor":true,"minHeight":4,"minHeightUnit":"%","contentPosition":"bottom center","style":{"border":{"radius":"90px"},"dimensions":{"aspectRatio":"9/16"}},"layout":{"type":"default"}} -->
+<div class="wp-block-cover has-custom-content-position is-position-bottom-center" style="border-radius:90px;min-height:4%"><span aria-hidden="true" class="wp-block-cover__background has-black-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1903" alt="" src="https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/04/2025-04-06_17-43-08_1105.jpeg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"aa-c-1940-text","style":{"dimensions":{"minHeight":""},"spacing":{"blockGap":"10px","padding":{"bottom":"30px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group aa-c-1940-text" style="padding-bottom:30px"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"30px"}}} -->
+<p class="has-text-align-center" style="font-size:30px">Urban Flight</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"14px"}}} -->
+<p class="has-text-align-center" style="font-size:14px">Defying gravity, one trick at a time.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group -->
+<!-- /wp:appiapp-carousel/carousel-item -->
+
+<!-- wp:appiapp-carousel/carousel-item -->
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:cover {"url":"https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/04/2025-04-06_17-44-56_7209.jpeg","id":1924,"dimRatio":50,"overlayColor":"black","isUserOverlayColor":true,"minHeight":4,"minHeightUnit":"%","contentPosition":"bottom center","style":{"border":{"radius":"90px"},"dimensions":{"aspectRatio":"9/16"}},"layout":{"type":"default"}} -->
+<div class="wp-block-cover has-custom-content-position is-position-bottom-center" style="border-radius:90px;min-height:4%"><span aria-hidden="true" class="wp-block-cover__background has-black-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1924" alt="" src="https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/04/2025-04-06_17-44-56_7209.jpeg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"aa-c-1940-text","style":{"dimensions":{"minHeight":""},"spacing":{"blockGap":"10px","padding":{"bottom":"30px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group aa-c-1940-text" style="padding-bottom:30px"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"30px"}}} -->
+<p class="has-text-align-center" style="font-size:30px">The Collection</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"14px"}}} -->
+<p class="has-text-align-center" style="font-size:14px">Shapes and colors that tell a story.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group -->
+<!-- /wp:appiapp-carousel/carousel-item -->
+
+<!-- wp:appiapp-carousel/carousel-item -->
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:cover {"url":"https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/04/2025-04-06_17-42-39_3269.jpeg","id":1925,"dimRatio":50,"overlayColor":"black","isUserOverlayColor":true,"minHeight":4,"minHeightUnit":"%","contentPosition":"bottom center","style":{"border":{"radius":"90px"},"dimensions":{"aspectRatio":"9/16"}},"layout":{"type":"default"}} -->
+<div class="wp-block-cover has-custom-content-position is-position-bottom-center" style="border-radius:90px;min-height:4%"><span aria-hidden="true" class="wp-block-cover__background has-black-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1925" alt="" src="https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/04/2025-04-06_17-42-39_3269.jpeg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"aa-c-1940-text","style":{"dimensions":{"minHeight":""},"spacing":{"blockGap":"10px","padding":{"bottom":"30px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group aa-c-1940-text" style="padding-bottom:30px"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"30px"}}} -->
+<p class="has-text-align-center" style="font-size:30px">Style on Deck</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"14px"}}} -->
+<p class="has-text-align-center" style="font-size:14px">Where design meets performance.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group -->
+<!-- /wp:appiapp-carousel/carousel-item -->
+
+<!-- wp:appiapp-carousel/carousel-item -->
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:cover {"url":"https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/04/2025-04-06_17-45-24_8405.jpeg","id":1927,"dimRatio":50,"overlayColor":"black","isUserOverlayColor":true,"minHeight":4,"minHeightUnit":"%","contentPosition":"bottom center","style":{"border":{"radius":"90px"},"dimensions":{"aspectRatio":"9/16"}},"layout":{"type":"default"}} -->
+<div class="wp-block-cover has-custom-content-position is-position-bottom-center" style="border-radius:90px;min-height:4%"><span aria-hidden="true" class="wp-block-cover__background has-black-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1927" alt="" src="https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/04/2025-04-06_17-45-24_8405.jpeg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"aa-c-1940-text","style":{"dimensions":{"minHeight":""},"spacing":{"blockGap":"10px","padding":{"bottom":"30px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group aa-c-1940-text" style="padding-bottom:30px"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"30px"}}} -->
+<p class="has-text-align-center" style="font-size:30px">Momentum</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"14px"}}} -->
+<p class="has-text-align-center" style="font-size:14px">Speed, light, and raw energy in motion.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group -->
+<!-- /wp:appiapp-carousel/carousel-item -->
+
+<!-- wp:appiapp-carousel/carousel-item -->
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:cover {"url":"https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/04/2025-04-06_17-46-18_3759.jpeg","id":1929,"dimRatio":50,"overlayColor":"black","isUserOverlayColor":true,"minHeight":4,"minHeightUnit":"%","contentPosition":"bottom center","style":{"border":{"radius":"90px"},"dimensions":{"aspectRatio":"9/16"}},"layout":{"type":"default"}} -->
+<div class="wp-block-cover has-custom-content-position is-position-bottom-center" style="border-radius:90px;min-height:4%"><span aria-hidden="true" class="wp-block-cover__background has-black-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1929" alt="" src="https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/04/2025-04-06_17-46-18_3759.jpeg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"aa-c-1940-text","style":{"dimensions":{"minHeight":""},"spacing":{"blockGap":"10px","padding":{"bottom":"30px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group aa-c-1940-text" style="padding-bottom:30px"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"30px"}}} -->
+<p class="has-text-align-center" style="font-size:30px">The Playground</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"14px"}}} -->
+<p class="has-text-align-center" style="font-size:14px">A space made for flow and freedom.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group -->
+<!-- /wp:appiapp-carousel/carousel-item -->
+
+<!-- wp:appiapp-carousel/carousel-item -->
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:cover {"url":"https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/04/2025-04-06_17-44-01_2324.jpeg","id":1931,"dimRatio":50,"overlayColor":"black","isUserOverlayColor":true,"minHeight":4,"minHeightUnit":"%","contentPosition":"bottom center","style":{"border":{"radius":"90px"},"dimensions":{"aspectRatio":"9/16"}},"layout":{"type":"default"}} -->
+<div class="wp-block-cover has-custom-content-position is-position-bottom-center" style="border-radius:90px;min-height:4%"><span aria-hidden="true" class="wp-block-cover__background has-black-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1931" alt="" src="https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/04/2025-04-06_17-44-01_2324.jpeg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"aa-c-1940-text","style":{"dimensions":{"minHeight":""},"spacing":{"blockGap":"10px","padding":{"bottom":"30px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group aa-c-1940-text" style="padding-bottom:30px"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"30px"}}} -->
+<p class="has-text-align-center" style="font-size:30px">Style on Deck</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"14px"}}} -->
+<p class="has-text-align-center" style="font-size:14px">Where design meets performance.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group -->
+<!-- /wp:appiapp-carousel/carousel-item -->
+<!-- /wp:appiapp-carousel/items-container -->
+
+<!-- wp:appiapp-carousel/pagination {"paginationType":"fraction","align":"center","style":{"spacing":{"margin":{"top":"40px"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"color":{"background":"#ffffff00"}},"textColor":"white"} /-->
+<!-- /wp:appiapp-carousel/carousel --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->

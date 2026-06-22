@@ -1,0 +1,79 @@
+<!-- wp:appiapp-carousel/carousel {"customCss":"selector{\n  position:relative;\n}","columnsDesktop":1,"columnsTablet":1,"gapDesktop":0,"gapTablet":0,"gapMobile":0,"emblaOptions":{"align":"start","direction":"ltr","dragFree":false,"draggable":true,"inViewThreshold":0,"loop":true,"skipSnaps":false,"speed":20,"startIndex":0,"containScroll":"trimSnaps","slidesToScroll":1,"watchDrag":true,"breakpoints":[],"autoplay":{"enabled":true,"delay":3999,"stopOnInteraction":false,"stopOnMouseEnter":true,"playOnInit":true,"stopOnLastSnap":false},"autoscroll":{"enabled":false,"speed":2,"startDelay":1000,"playOnInit":true,"stopOnInteraction":false,"stopOnMouseEnter":true},"saveInstance":false,"customJs":"","overrideOptions":"","duration":60,"nameInstance":""},"swiperOptions":{"speed":1200,"loop":true,"rewind":false,"freeMode":false,"autoHeight":false,"effect":"slide","centeredSlides":false,"allowTouchMove":true,"mouseWheel":false,"breakpoints":[],"nameInstance":"slider1","saveInstance":true,"autoplay":{"enabled":true,"delay":4200,"pauseOnMouseEnter":true},"customJs":"document.addEventListener(\u0022DOMContentLoaded\u0022, function() {\n  const swiper = window.aacSwiperInstances[\u0022slider1\u0022];\n  const carousel = swiper?.el.closest('.wp-block-appiapp-carousel');\n  \n  if (!carousel || !swiper || !swiper.autoplay) return;\n\n  function handleMouseEnter() {\n    swiper.autoplay.stop();\n    swiper.params.autoplay.pauseOnMouseEnter = false;\n  }\n\n  function handleMouseLeave() {\n    swiper.params.autoplay.pauseOnMouseEnter = false;\n    if (!swiper.el.matches(':hover')) {\n      swiper.autoplay.start();\n    }\n  }\n\n  // Setup navigation buttons\n  ['prev', 'next'].forEach(direction =\u003e {\n    const button = carousel.querySelector(`.wp-block-appiapp-carousel-${direction}-arrow`);\n    if (button) {\n      button.addEventListener('mouseenter', handleMouseEnter);\n      button.addEventListener('mouseleave', handleMouseLeave);\n    }\n  });\n\n  // Handle carousel mouse leave\n  swiper.el.addEventListener('mouseleave', () =\u003e swiper.autoplay.start());\n});","overrideOptions":""},"align":"full"} -->
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:appiapp-carousel/prev-arrow {"position":"absolute","top":"calc(50% - 16px)","right":"5px"} -->
+<!-- wp:outermost/icon-block {"iconName":"wordpress-arrowLeft","customIconBackgroundColor":"#17e0ff","iconBackgroundColorValue":"#17e0ff","iconColor":"white","iconColorValue":"#ffffff","width":"30px"} -->
+<div class="wp-block-outermost-icon-block"><div class="icon-container has-icon-color has-icon-background-color has-white-color" style="background-color:#17e0ff;color:#ffffff;width:30px;transform:rotate(0deg) scaleX(1) scaleY(1)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.2H6.8l3.7-3.7-1-1L3.9 12l5.6 5.5 1-1-3.7-3.7H20z"></path></svg></div></div>
+<!-- /wp:outermost/icon-block -->
+<!-- /wp:appiapp-carousel/prev-arrow -->
+
+<!-- wp:appiapp-carousel/items-container -->
+<!-- wp:appiapp-carousel/carousel-item -->
+<!-- wp:cover {"url":"https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/02/2025-02-15_18-05-46_7899.jpeg","id":177,"dimRatio":10,"customOverlayColor":"#545454","isUserOverlayColor":true,"minHeight":700,"contentPosition":"center center","isDark":false,"style":{"spacing":{"padding":{"right":"45px","left":"45px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover is-light" style="padding-right:45px;padding-left:45px;min-height:700px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-10 has-background-dim" style="background-color:#545454"></span><img class="wp-block-cover__image-background wp-image-177" alt="" src="https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/02/2025-02-15_18-05-46_7899.jpeg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"right","level":1,"placeholder":"Title","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"fontSize":"36px"}},"textColor":"white"} -->
+<h1 class="wp-block-heading has-text-align-right has-white-color has-text-color has-link-color" style="font-size:36px">Carving the Perfect Line</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"right","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"fontSize":"18px"}},"textColor":"white"} -->
+<p class="has-text-align-right has-white-color has-text-color has-link-color" style="font-size:18px">Graceful Turns on Pristine Snow Under the Winter Sun</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Read more</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover -->
+<!-- /wp:appiapp-carousel/carousel-item -->
+
+<!-- wp:appiapp-carousel/carousel-item -->
+<!-- wp:cover {"url":"https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/02/2025-02-15_17-51-55_9601.jpeg","id":170,"dimRatio":0,"customOverlayColor":"#8f7ea0","isUserOverlayColor":false,"minHeight":700,"contentPosition":"center center","isDark":false,"style":{"spacing":{"padding":{"right":"45px","left":"45px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover is-light" style="padding-right:45px;padding-left:45px;min-height:700px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#8f7ea0"></span><img class="wp-block-cover__image-background wp-image-170" alt="" src="https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/02/2025-02-15_17-51-55_9601.jpeg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"level":1,"placeholder":"Title","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"fontSize":"36px"}},"textColor":"white"} -->
+<h1 class="wp-block-heading has-white-color has-text-color has-link-color" style="font-size:36px">Experience the Magic of the Mountains</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"fontSize":"18px"}},"textColor":"white"} -->
+<p class="has-white-color has-text-color has-link-color" style="font-size:18px">Breathtaking Slopes, Cozy Chalets, and Unforgettable Winter Adventures</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Read more</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover -->
+<!-- /wp:appiapp-carousel/carousel-item -->
+
+<!-- wp:appiapp-carousel/carousel-item -->
+<!-- wp:cover {"url":"https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/02/2025-02-15_18-14-44_8059.jpeg","id":187,"dimRatio":0,"customOverlayColor":"#616e8d","isUserOverlayColor":false,"minHeight":700,"contentPosition":"center center","style":{"spacing":{"padding":{"right":"45px","left":"45px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover" style="padding-right:45px;padding-left:45px;min-height:700px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#616e8d"></span><img class="wp-block-cover__image-background wp-image-187" alt="" src="https://rainbow-maamoul-294bb4.netlify.app/wp-content/uploads/sites/9/2025/02/2025-02-15_18-14-44_8059.jpeg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"right","level":1,"placeholder":"Title","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"fontSize":"36px"}},"textColor":"white"} -->
+<h1 class="wp-block-heading has-text-align-right has-white-color has-text-color has-link-color" style="font-size:36px">Warmth in the Winter Wonderland</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"right","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"fontSize":"18px"}},"textColor":"white"} -->
+<p class="has-text-align-right has-white-color has-text-color has-link-color" style="font-size:18px">A Cozy Retreat Amidst Snow-Covered Pines</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Read more</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover -->
+<!-- /wp:appiapp-carousel/carousel-item -->
+<!-- /wp:appiapp-carousel/items-container -->
+
+<!-- wp:appiapp-carousel/next-arrow {"position":"absolute","top":"calc(50% + 16px)","right":"5px"} -->
+<!-- wp:outermost/icon-block {"iconName":"wordpress-arrowRight","customIconBackgroundColor":"#17e0ff","iconBackgroundColorValue":"#17e0ff","customIconColor":"#fefefe","iconColorValue":"#fefefe","width":"30px"} -->
+<div class="wp-block-outermost-icon-block"><div class="icon-container has-icon-color has-icon-background-color" style="background-color:#17e0ff;color:#fefefe;width:30px;transform:rotate(0deg) scaleX(1) scaleY(1)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 6.5-1 1 3.7 3.7H4v1.6h13.2l-3.7 3.7 1 1 5.6-5.5z"></path></svg></div></div>
+<!-- /wp:outermost/icon-block -->
+<!-- /wp:appiapp-carousel/next-arrow --></div>
+<!-- /wp:group -->
+
+<!-- wp:appiapp-carousel/pagination {"position":"absolute","top":"-40px","align":"center","style":{"color":{"background":"#17e0ff"},"border":{"radius":"50%","width":"2px"}}} /-->
+<!-- /wp:appiapp-carousel/carousel -->

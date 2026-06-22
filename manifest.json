@@ -1,0 +1,483 @@
+{
+    "version": "2025-04-13",
+    "updated_at": "2026-06-22",
+    "templates": [
+        {
+            "id": "immersive-coverflow-carousel-with-touch-trackpad-scrolling",
+            "name": "3D Coverflow Carousel with Interactive Perspective",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-10",
+            "content": "content/immersive-coverflow-carousel-with-touch-trackpad-scrolling.html",
+            "description": "This full-width carousel utilizes Swiper's coverflow effect to create a dynamic, 3D-like scrolling experience. Items elegantly rotate and scale as the user scrolls through the content, giving a sense of depth and motion. The visible overflow on both left and right sides hints at additional content, encouraging interaction. Thanks to Swiper’s responsive behavior, users can seamlessly scroll using touch gestures or a trackpad, offering a smooth and engaging navigation experience across all devices."
+        },
+        {
+            "id": "boxed-carousel-with-hover-effect-smooth-chrome-and-edge",
+            "name": "Boxed Carousel with Hover Effect (smooth Chrome and Edge)",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-22",
+            "content": "content/boxed-carousel-with-hover-effect-smooth-chrome-and-edge.html",
+            "description": "This boxed carousel features a sleek and minimalistic hover effect, allowing users to reveal additional information effortlessly. The hover interaction is implemented using custom CSS, ensuring smooth transitions and an engaging user experience. The design keeps the layout clean while enhancing usability, making it an elegant solution for showcasing content dynamically."
+        },
+        {
+            "id": "boxed-carousel-with-hover-effect-smooth-chrome-and-edge-2",
+            "name": "Boxed Carousel with Hover Effect (smooth Chrome and Edge)",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-22",
+            "content": "content/boxed-carousel-with-hover-effect-smooth-chrome-and-edge-2.html",
+            "description": ""
+        },
+        {
+            "id": "boxed-carousel-with-overflowing-right-side-and-custom-navigation-2",
+            "name": "Boxed Carousel with Overflowing Right Side and Custom Navigation",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/boxed-carousel-with-overflowing-right-side-and-custom-navigation-2.html",
+            "description": "This boxed-layout carousel maintains a structured appearance while allowing the right side to extend beyond the layout limits, creating a dynamic and unconventional visual effect.\r\n\r\nThe design includes custom navigation icons and personalized pagination color that seamlessly blends with the site’s aesthetic."
+        },
+        {
+            "id": "boxed-carousel-with-overflowing-right-side-and-custom-navigation",
+            "name": "Boxed Carousel with Overflowing Right Side and Custom Navigation",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/boxed-carousel-with-overflowing-right-side-and-custom-navigation.html",
+            "description": ""
+        },
+        {
+            "id": "boxed-carousel-with-right-side-overflow-and-detached-navigation-2",
+            "name": "Boxed Carousel with Right-Side Overflow and Detached Navigation",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/boxed-carousel-with-right-side-overflow-and-detached-navigation-2.html",
+            "description": "This boxed carousel features a unique layout where the elements overflow exclusively on the right side, creating a dynamic and engaging visual effect. The navigation is completely detached from the carousel items, demonstrating the incredible flexibility of the plugin. This design allows for a highly customizable and modern user experience, seamlessly integrating into any website layout."
+        },
+        {
+            "id": "boxed-carousel-with-right-side-overflow-and-detached-navigation",
+            "name": "Boxed Carousel with Right-Side Overflow and Detached Navigation",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/boxed-carousel-with-right-side-overflow-and-detached-navigation.html",
+            "description": ""
+        },
+        {
+            "id": "boxed-carousel-with-side-navigation-and-smart-autoplay",
+            "name": "Boxed Carousel with Side Navigation and Smart Autoplay",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/boxed-carousel-with-side-navigation-and-smart-autoplay.html",
+            "description": ""
+        },
+        {
+            "id": "boxed-carousel-with-side-navigation-and-smart-autoplay-2",
+            "name": "Boxed Carousel with Side Navigation and Smart Autoplay",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/boxed-carousel-with-side-navigation-and-smart-autoplay-2.html",
+            "description": "This boxed carousel offers a refined and structured layout, featuring navigation controls positioned on the left and right sides for intuitive browsing.\r\n\r\nThe autoplay function ensures seamless scrolling, enhancing the user experience, while the hover pause effect provides greater control, allowing users to focus on specific slides effortlessly."
+        },
+        {
+            "id": "boxed-carousel-with-top-right-navigation-2",
+            "name": "Boxed Carousel with Top-Right Navigation",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/boxed-carousel-with-top-right-navigation-2.html",
+            "description": "Enhance your website with a sleek boxed carousel featuring navigation controls elegantly positioned in the top-right corner."
+        },
+        {
+            "id": "boxed-carousel-with-top-right-navigation",
+            "name": "Boxed Carousel with Top-Right Navigation",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/boxed-carousel-with-top-right-navigation.html",
+            "description": ""
+        },
+        {
+            "id": "carousel-with-blend-mode-hover-and-zoom-background",
+            "name": "Carousel with Blend Mode Hover and Zoom Background",
+            "category": "Advanced Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-08",
+            "content": "content/carousel-with-blend-mode-hover-and-zoom-background.html",
+            "description": "This full-width carousel features a custom hover effect powered by mix-blend-mode, creating a striking visual interaction between the mouse pointer and the carousel elements. When hovering, a zoom effect is applied to the background image, adding a sense of depth and immersion.\r\nThe carousel also supports smooth horizontal scrolling with the mouse or trackpad, offering a fluid browsing experience across all devices. The combination of blend modes, background transformations, and native scroll makes this component highly engaging and visually dynamic."
+        },
+        {
+            "id": "carousel-with-custom-navigation-and-left-overflow-2",
+            "name": "Carousel with Custom Navigation and Left Overflow",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/carousel-with-custom-navigation-and-left-overflow-2.html",
+            "description": "This full-width carousel is designed for a striking visual impact, seamlessly extending beyond its container with a left-side overflow effect.\r\n\r\nThe custom navigation controls ensure a smooth and intuitive browsing experience, blending functionality with aesthetic appeal."
+        },
+        {
+            "id": "carousel-with-custom-navigation-and-left-overflow",
+            "name": "Carousel with Custom Navigation and Left Overflow",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/carousel-with-custom-navigation-and-left-overflow.html",
+            "description": ""
+        },
+        {
+            "id": "dual-overflow-boxed-carousel-with-progress-bar-navigation-2",
+            "name": "Dual Overflow Boxed Carousel with Progress Bar &amp; Navigation",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/dual-overflow-boxed-carousel-with-progress-bar-navigation-2.html",
+            "description": "This elegantly structured boxed carousel features a unique dual overflow effect, allowing elements to extend beyond the container on both the left and right sides. This design creates a dynamic and immersive visual flow while maintaining a refined layout.\r\n\r\nA progress bar has been integrated into the navigation system, providing a clear visual indicator of the slide transition progress. Alongside this, intuitive navigation buttons offer precise control, ensuring a seamless and engaging user experience."
+        },
+        {
+            "id": "dual-overflow-boxed-carousel-with-progress-bar-navigation",
+            "name": "Dual Overflow Boxed Carousel with Progress Bar &amp; Navigation",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/dual-overflow-boxed-carousel-with-progress-bar-navigation.html",
+            "description": ""
+        },
+        {
+            "id": "full-width-carousel-with-absolute-positioned-navigation-2",
+            "name": "Full-Width Carousel with Absolute Positioned Navigation",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-carousel-with-absolute-positioned-navigation-2.html",
+            "description": "This full-width carousel is designed for a seamless and dynamic browsing experience. The navigation controls are positioned absolutely, allowing them to overlay the carousel elements without disrupting the layout."
+        },
+        {
+            "id": "full-width-carousel-with-absolute-positioned-navigation",
+            "name": "Full-Width Carousel with Absolute Positioned Navigation",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-carousel-with-absolute-positioned-navigation.html",
+            "description": ""
+        },
+        {
+            "id": "full-width-carousel-with-centered-element-and-partially-visible-side-slides-2",
+            "name": "Full-Width Carousel with Centered Element and Partially Visible Side Slides",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-carousel-with-centered-element-and-partially-visible-side-slides-2.html",
+            "description": "This full-width carousel features a prominent centered element, creating a strong focal point while allowing a large portion of the previous and next slides to remain visible.\r\n\r\nThis design naturally guides the user's attention to the main content while subtly encouraging navigation. Additionally, a smooth hover effect enhances the background image, adding an interactive and engaging touch."
+        },
+        {
+            "id": "full-width-carousel-with-centered-element-and-partially-visible-side-slides",
+            "name": "Full-Width Carousel with Centered Element and Partially Visible Side Slides",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-carousel-with-centered-element-and-partially-visible-side-slides.html",
+            "description": ""
+        },
+        {
+            "id": "full-width-carousel-with-dual-overflow-icon-hover-effects",
+            "name": "Full-Width Carousel with Dual Overflow & Icon Hover Effects",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-carousel-with-dual-overflow-icon-hover-effects.html",
+            "description": "This full-width carousel features a dynamic overflow effect on both the left and right sides, creating a seamless and immersive browsing experience. Each element includes a hover interaction on the icon."
+        },
+        {
+            "id": "575",
+            "name": "Full-Width Carousel with Dual Overflow & Icon Hover Effects",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/575.html",
+            "description": ""
+        },
+        {
+            "id": "full-width-carousel-with-integrated-navigation-in-the-title-2",
+            "name": "Full-Width Carousel with Integrated Navigation in the Title",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-carousel-with-integrated-navigation-in-the-title-2.html",
+            "description": "This full-width carousel breaks conventional design rules by seamlessly embedding navigation controls within the title area, creating a unique and visually striking layout."
+        },
+        {
+            "id": "full-width-carousel-with-integrated-navigation-in-the-title",
+            "name": "Full-Width Carousel with Integrated Navigation in the Title",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-carousel-with-integrated-navigation-in-the-title.html",
+            "description": ""
+        },
+        {
+            "id": "full-width-carousel-with-left-overflow-visibility-2",
+            "name": "Full-Width Carousel with Left Overflow Visibility",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-carousel-with-left-overflow-visibility-2.html",
+            "description": "This full-width carousel is designed for a seamless and engaging browsing experience. The slides extend beyond the viewport on the left side, creating a visually dynamic overflow effect that subtly invites users to explore more content.\r\n\r\nEach box maintains a uniform height, ensuring a structured and harmonious layout. The buttons within the slides are consistently aligned at the bottom, enhancing visual balance and usability."
+        },
+        {
+            "id": "full-width-carousel-with-left-overflow-visibility",
+            "name": "Full-Width Carousel with Left Overflow Visibility",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-carousel-with-left-overflow-visibility.html",
+            "description": ""
+        },
+        {
+            "id": "full-width-carousel-with-visible-overflow",
+            "name": "Full-Width Carousel with Visible Overflow",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-carousel-with-visible-overflow.html",
+            "description": ""
+        },
+        {
+            "id": "full-width-carousel-with-visible-overflow-2",
+            "name": "Full-Width Carousel with Visible Overflow",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-carousel-with-visible-overflow-2.html",
+            "description": "This full-width carousel is designed to create a modern and engaging browsing experience. It features a slight padding on both the left and right sides, ensuring a balanced layout while maintaining a smooth overflow effect on both edges.\r\n\r\nSlides extend beyond the viewport, subtly revealing upcoming content and encouraging user interaction. The design provides a dynamic and immersive feel while keeping the structure clean and visually appealing."
+        },
+        {
+            "id": "full-width-carousel-with-visible-overflow-and-trackpad-scrolling",
+            "name": "Full-Width Carousel with Visible Overflow and Trackpad Scrolling",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-05",
+            "content": "content/full-width-carousel-with-visible-overflow-and-trackpad-scrolling.html",
+            "description": "This full-width carousel features a seamless horizontal scrolling experience with visible overflow, allowing adjacent slides to peek into view and hint at additional content. It supports native scrolling via trackpad gestures, delivering a smooth and intuitive navigation flow across devices. The layout creates a sense of continuity and depth, perfect for showcasing visual content in a modern, interactive way."
+        },
+        {
+            "id": "full-width-slider-with-complex-layout-2",
+            "name": "Full-Width Slider with Complex Layout",
+            "category": "Slider",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-slider-with-complex-layout-2.html",
+            "description": "Full-width slider featuring a complex multi-row and multi-column layout. Each slide is carefully designed with a cover block as the main focal point, ensuring a visually striking and immersive experience. The grid-based composition allows for diverse content placement, balancing large highlight sections with supporting elements such as images, text, and call-to-action buttons.\r\n\r\nThe navigation is strategically positioned to ensure seamless interaction, while the fraction-style pagination provides users with a clear sense of progress."
+        },
+        {
+            "id": "full-width-slider-with-complex-layout",
+            "name": "Full-Width Slider with Complex Layout",
+            "category": "Slider",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-slider-with-complex-layout.html",
+            "description": ""
+        },
+        {
+            "id": "full-width-slider-with-right-side-navigation-and-custom-autoplay-control-2",
+            "name": "Full-Width Slider with Right-Side Navigation and Custom Autoplay Control",
+            "category": "Slider",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-slider-with-right-side-navigation-and-custom-autoplay-control-2.html",
+            "description": "This slider features a navigation system positioned on the right side, allowing for an intuitive and streamlined user experience.\r\n\r\nA custom JavaScript function enhances usability by pausing autoplay not only when hovering over the slider itself but also when interacting with the navigation arrows. This prevents accidental slides while users are deciding on the next image, improving overall interaction and control."
+        },
+        {
+            "id": "full-width-slider-with-right-side-navigation-and-custom-autoplay-control",
+            "name": "Full-Width Slider with Right-Side Navigation and Custom Autoplay Control",
+            "category": "Slider",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/full-width-slider-with-right-side-navigation-and-custom-autoplay-control.html",
+            "description": ""
+        },
+        {
+            "id": "852",
+            "name": "Full-Width Team Carousel with Rounded Portraits",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-04",
+            "content": "content/852.html",
+            "description": "This full-width carousel elegantly showcases the team in a clean, modern layout. Each member is presented with a prominently displayed image featuring smooth, rounded corners that add a friendly and approachable feel. The design ensures maximum visibility across the screen while maintaining a sleek, consistent visual rhythm. Ideal for highlighting your team’s faces and roles in an engaging, scrollable format."
+        },
+        {
+            "id": "full-width-team-carousel-with-rounded-portraits",
+            "name": "Full-Width Team Carousel with Rounded Portraits",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-04",
+            "content": "content/full-width-team-carousel-with-rounded-portraits.html",
+            "description": ""
+        },
+        {
+            "id": "image-carousel-with-lightbox-and-highlighted-main-slide",
+            "name": "Image Carousel with Lightbox and Highlighted Main Slide",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/image-carousel-with-lightbox-and-highlighted-main-slide.html",
+            "description": ""
+        },
+        {
+            "id": "image-carousel-with-lightbox-and-highlighted-main-slide-2",
+            "name": "Image Carousel with Lightbox and Highlighted Main Slide",
+            "category": "Simple Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/image-carousel-with-lightbox-and-highlighted-main-slide-2.html",
+            "description": "This interactive image carousel features a central slide in full focus, while the previous and next slides appear smaller, creating a natural emphasis on the main image.\r\n\r\nUpon clicking, images open in a lightbox, allowing users to view them in full detail without distractions. This design enhances user engagement while maintaining a sleek and modern visual flow, perfect for showcasing high-quality visuals in an elegant and immersive way."
+        },
+        {
+            "id": "post-version-of-3d-coverflow-carousel-with-interactive-perspective",
+            "name": "Post version of: 3D Coverflow Carousel with Interactive Perspective",
+            "category": "Posts",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-12",
+            "content": "content/post-version-of-3d-coverflow-carousel-with-interactive-perspective.html",
+            "description": ""
+        },
+        {
+            "id": "post-version-2",
+            "name": "Post Version of: Boxed Carousel with Right-Side Overflow and Detached Navigation",
+            "category": "Posts",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-13",
+            "content": "content/post-version-2.html",
+            "description": ""
+        },
+        {
+            "id": "post-version-of-full-width-carousel-with-centered-element-and-partially-visible-side-slides",
+            "name": "Post Version of: Full-Width Carousel with Centered Element and Partially Visible Side Slides",
+            "category": "Posts",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-12",
+            "content": "content/post-version-of-full-width-carousel-with-centered-element-and-partially-visible-side-slides.html",
+            "description": ""
+        },
+        {
+            "id": "full-width-carousel-with-centered-element-and-partially-visible-side-slides-3",
+            "name": "Post Version of: Full-Width Carousel with Centered Element and Partially Visible Side Slides",
+            "category": "Posts",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-12",
+            "content": "content/full-width-carousel-with-centered-element-and-partially-visible-side-slides-3.html",
+            "description": ""
+        },
+        {
+            "id": "post-version-of-full-width-carousel-with-dual-overflow-icon-hover-effects",
+            "name": "Post version of: Full-Width Carousel with Dual Overflow &amp; Icon Hover Effects",
+            "category": "Posts",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-13",
+            "content": "content/post-version-of-full-width-carousel-with-dual-overflow-icon-hover-effects.html",
+            "description": "This full-width carousel features a dynamic overflow effect on both the left and right sides, creating a seamless and immersive browsing experience. Each element includes a hover interaction on the icon."
+        },
+        {
+            "id": "post-version-of-full-width-carousel-with-dual-overflow-icon-hover-effects-2",
+            "name": "Post version of: Full-Width Carousel with Dual Overflow &amp; Icon Hover Effects",
+            "category": "Posts",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-13",
+            "content": "content/post-version-of-full-width-carousel-with-dual-overflow-icon-hover-effects-2.html",
+            "description": ""
+        },
+        {
+            "id": "post-version-of-full-width-carousel-with-visible-overflow-and-trackpad-scrolling",
+            "name": "Post version of: Full-Width Carousel with Visible Overflow and Trackpad Scrolling",
+            "category": "Posts",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-13",
+            "content": "content/post-version-of-full-width-carousel-with-visible-overflow-and-trackpad-scrolling.html",
+            "description": "This full-width carousel features a seamless horizontal scrolling experience with visible overflow, allowing adjacent slides to peek into view and hint at additional content. It supports native scrolling via trackpad gestures, delivering a smooth and intuitive navigation flow across devices. The layout creates a sense of continuity and depth, perfect for showcasing visual content in a modern, interactive way."
+        },
+        {
+            "id": "post-version-of-full-width-team-carousel-with-rounded-portraits-2",
+            "name": "Post version of: Full-Width Team Carousel with Rounded Portraits",
+            "category": "Posts",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-13",
+            "content": "content/post-version-of-full-width-team-carousel-with-rounded-portraits-2.html",
+            "description": ""
+        },
+        {
+            "id": "post-version-of-full-width-team-carousel-with-rounded-portraits",
+            "name": "Post version of: Full-Width Team Carousel with Rounded Portraits",
+            "category": "Posts",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-13",
+            "content": "content/post-version-of-full-width-team-carousel-with-rounded-portraits.html",
+            "description": "This full-width carousel elegantly showcases the team in a clean, modern layout. Each member is presented with a prominently displayed image featuring smooth, rounded corners that add a friendly and approachable feel. The design ensures maximum visibility across the screen while maintaining a sleek, consistent visual rhythm. Ideal for highlighting your team’s faces and roles in an engaging, scrollable format."
+        },
+        {
+            "id": "showcase-carousel-2",
+            "name": "Showcase Carousel",
+            "category": "Advanced Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-31",
+            "content": "content/showcase-carousel-2.html",
+            "description": "This carousel is designed to display one element at a time, offering a refined and structured layout for optimal content focus. It features a custom internal layout, ensuring flexibility in presenting various types of content. The pagination and progress bar are positioned in the bottom right corner, providing a clean and intuitive navigation experience. This effect has been achieved through custom CSS, allowing precise control over the carousel's structure and animations."
+        },
+        {
+            "id": "showcase-carousel",
+            "name": "Showcase Carousel",
+            "category": "Advanced Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-31",
+            "content": "content/showcase-carousel.html",
+            "description": ""
+        },
+        {
+            "id": "slider",
+            "name": "Slider",
+            "category": "Slider",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-27",
+            "content": "content/slider.html",
+            "description": ""
+        },
+        {
+            "id": "swiperjs-immersive-netflix-style-carousel",
+            "name": "SwiperJS - Immersive Netflix-Style Carousel",
+            "category": "Advanced Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-31",
+            "content": "content/swiperjs-immersive-netflix-style-carousel.html",
+            "description": "This is a full-width Netflix-style carousel, designed to deliver a dynamic and immersive browsing experience. Each element features an advanced hover effect that reveals additional information and applies a custom zoom effect, varying based on the element's position within the carousel.\r\n\r\nTo achieve seamless interactions, the design incorporates dedicated empty space above and below the carousel, ensuring that elements can expand beyond their original boundaries without overflow restrictions. This technique enhances the depth and interactivity of the layout.\r\n\r\nThe entire effect has been meticulously crafted using custom JavaScript and CSS, allowing for precise control over animations, transitions, and layering."
+        },
+        {
+            "id": "swiperjs-slider-with-animated-svg-navigation",
+            "name": "SwiperJS - Slider with Animated SVG Navigation",
+            "category": "Advanced Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/swiperjs-slider-with-animated-svg-navigation.html",
+            "description": "This SwiperJS-powered slider features a custom navigation system enhanced with an animated SVG icon. The SVG animation is seamlessly integrated using a combination of CSS and JavaScript, ensuring smooth and dynamic visual effects when users interact with the navigation buttons."
+        },
+        {
+            "id": "swiperjs-slider-with-tabbed-navigation",
+            "name": "SwiperJS - Slider with Tabbed Navigation",
+            "category": "Advanced Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-03-23",
+            "content": "content/swiperjs-slider-with-tabbed-navigation.html",
+            "description": "This SwiperJS-powered slider features an advanced tabbed navigation system instead of traditional dots. Each tab displays a title corresponding to the related slide, allowing users to switch between sections effortlessly.\r\n\r\nThe tabbed navigation has been implemented using a lightweight custom JavaScript function, which can be easily integrated within the plugin. This ensures a seamless and dynamic interaction while maintaining full flexibility for customization."
+        },
+        {
+            "id": "synchronized-card-slider-with-dual-swipers",
+            "name": "Synchronized Card Slider with Dual Swipers",
+            "category": "Advanced Carousel",
+            "thumb": "thumbs/_default.svg",
+            "version": "2025-04-08",
+            "content": "content/synchronized-card-slider-with-dual-swipers.html",
+            "description": "This carousel setup features the elegant cards effect from SwiperJS, delivering a tactile, swipeable card interface with natural movement and depth. What makes it truly unique is the synchronization of two separate Swipers—one for visual content and another for textual or interactive information.\r\n\r\nUsing controller.control, both sliders move in harmony: when you interact with one, the other follows seamlessly."
+        }
+    ]
+}
